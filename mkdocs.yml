@@ -1,0 +1,223 @@
+site_name: NSI
+site_description: "Support de cours activité TP en spé NSI"
+site_author: "Bruno DARID"
+copyright: "CC-BY-NC-SA 4.0"
+docs_dir: docs
+
+theme:
+    name: material
+    custom_dir: overrides
+    custom_dir: my_theme_customizations/
+    font: false
+    language: fr                    # français
+    palette:                        # Palettes de couleurs jour/nuit
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+            icon: material/weather-sunny
+            name: Passer au mode nuit
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: blue
+        accent: blue
+        toggle:
+            icon: material/weather-night
+            name: Passer au mode jour
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.expand
+        - navigation.top
+        - toc.integrate
+        - header.autohide
+nav:
+    - "Home": index.md    
+    - "NSI1":
+        - "Seq.1 Intoduction à la programmation":
+            - "ACTIVITE 1": NSI1/S1/S1A1.md
+            - "ACTIVITE 2": NSI1/S1/S1A2.md
+            - "COURS 1": NSI1/S1/S1C1.md
+            - "COURS 2": NSI1/S1/S1C2.md
+            - "EXERCICES 1": NSI1/S1/S1E1.md
+            - "TP 1": NSI1/S1/TP01.pdf
+        - "Seq.2 Systèmes d'exploitation":
+            - "ACTIVITÉ 1": NSI1/S2/S2A1.md
+            - "ACTIVITÉ 2": NSI1/S2/S2A2.md
+            - "ACTIVITÉ 3": NSI1/S2/S2A3.md
+            - "ACTIVITÉ 4": NSI1/S2/S2A4.md
+            - "COURS": NSI1/S2/S2C1.md
+            - "EXERCICES 1": NSI1/S2/S2E1.md
+        - "Seq.3 Codage des nombres":
+            - "ACTIVITE 1": NSI1/S3/S3A1.md
+            - "ACTIVITE 2": NSI1/S3/S3A2.md
+            - "COURS 1": NSI1/S3/S3C1.md
+            - "COURS 2": NSI1/S3/S3C2.md
+            - "COURS 3": NSI1/S3/S3C3.md
+            - "TP 1": NSI1/S3/TP1S3.md
+            - "Annexe TP1": NSI1/S3/Annexe_TP.md
+            - "EXERCICES E1": NSI1/S3/S3E1.md
+            - "EXERCICES E2": NSI1/S3/doc/Exercices_codage_nombre.pdf
+            - "En Résumé": NSI1/S3/S3R1.md
+        - "Seq.4 Au coeur de l'ordinateur":
+            - "COURS 1": NSI1/S4/S4C1.md
+            - "COURS 2": NSI1/S4/S4C2.md
+            - "ACTIVITE 1": NSI1/S4/S4A1.md
+            - "ACTIVITE 2": NSI1/S4/S4A2.md
+            - "TP 1": NSI1/S4/S4TP1.md
+            - "Exercices": NSI1/S4/S4E1.md
+            - "En résumé": NSI1/S4/S4R1.md
+        - "Seq. 5 Représentation de données":
+            - "COURS 1": NSI1/S5/S5C1.md
+            - "COURS 2": NSI1/S5/S5C2.md
+            - "COURS 3": NSI1/S5/S5C3.md
+            - "COURS 3a": NSI1/S5/S5C3a.md
+            - "COURS 3b": NSI1/S5/S5C3b.md
+            - "ACTIVITE 1": NSI1/S5/S5A1.md
+            - "EXERCICES E1": NSI1/S5/S5E1.md
+            - "EXERCICES E2": NSI1/S5/S5E2.md
+            - "EXERCICES E3": NSI1/S5/S5E3.md
+            - "COURS 4": NSI1/S5/S5C4.md
+            - "COURS 5": NSI1/S5/S5C5.md
+            - "COURS 6": NSI1/S5/S5C6.md
+            - "EXERCICES E4": NSI1/S5/S5E4.md
+        - "Seq. 6 IHM sur le web":
+            - "COURS 1": NSI1/S6/S6C1.md
+            - "ACTIVITÉ 1": NSI1/S6/S6A1.md
+            - "EXERCICES E2": NSI1/S6/S6E2.md
+            - "COURS 2": NSI1/S6/S6C2.md
+            - "COURS 3": NSI1/S6/S6C3.md
+        - "Séq. 7 Données tabulées":
+            - "COURS 1": NSI1/S7/S7C1.md
+            - "COURS 2": NSI1/S7/S7C2.md
+            - "EXERCICE 1": NSI1/S7/S7E1.md
+        - "Seq. 8 Algorithmique":
+            - "COURS 1": NSI1/S8/S8C1.md
+            - "COURS 2": NSI1/S8/S8C2.md           
+    - "NSITerm":
+        - "Chap. I Récursivité":
+            - "Cours": NSITerm/LP2/C1C1.md
+            - "Exercices": NSITerm/LP2/C1E1.md
+            - "Vers le bac": NSITerm/LP2/C1TD1.md
+            - "Correction": NSITerm/LP2/C1TD1C.md
+        - "Chap. II Mise au point - Bugs":
+            - "Cours": NSITerm/LP2/C5C1.md
+            - "Exercices 1": NSITerm/LP2/C5E1.md
+            - "Exercices 2": NSITerm/LP2/C2E2.md
+        - "Chap. III Prog. modulaire":
+            - "TP": NSITerm/LP2/C3TP1.md
+            - "Actvité": NSITerm/LP2/C3A1.md
+#            - "Actvité 2": NSITerm/LP2/C4A2.md        
+        - "Chap. IV SDD1 Pile & File":
+            - "Cours": NSITerm/SD/C2C1.md
+            - "Exercices": NSITerm/SD/C2E1.md
+        - "Chap. V Vocabulaire POO":
+            - "Cours": NSITerm/SD/C3C1.md
+            - "Exercices 1": NSITerm/SD/C3E1.md
+            - "Exercices 2": NSITerm/SD/C3E2.md
+        - "Chap. VI Du TAD à la structure de donnée Liste":
+            - "Cours": NSITerm/SD/C6C1.md
+            - "Exercices": NSITerm/SD/C6E1.md
+        - "Chap. VI(b) Le TAD Dictionnaire":
+            - "Cours": NSITerm/SD/C6bC1.md
+        - "Chap. VII Gestion des ressources par un SE":
+            - "Cours": NSITerm/ARSE/C7C1.md
+            - "Exercices": NSITerm/ARSE/C7E1.md
+        - "Chap. VIII Base de données":
+            - "Activité de découverte": NSITerm/BDD/C8A1.md
+            - "Cours 1: Le modèle relationnel": NSITerm/BDD/C8C1.md
+            - "Cours 2: Structure des bases de données relationnelles": NSITerm/BDD/C8C2.md
+            - "Cours 3: Langage SQL": NSITerm/BDD/C8C3.md
+            - "TP 1": NSITerm/BDD/C8TP1.md
+            - "TP 2": NSITerm/BDD/C8TP2.md 
+            - "Exercices 1: Schémas relationnels": NSITerm/BDD/C8E1.md
+            - "Correction Ex. 1": NSITerm/BDD/CorC8.md
+            - "Correction TP1": NSITerm/BDD/C8TP1Cor.md
+            - "Correction TP2": NSITerm/BDD/C8TP2C.md
+        - "Chap. IX Protocoles de routage":
+            - "Cours 1: Routage": NSITerm/ARSE/C9C1.md
+            - "Exercices 1": NSITerm/ARSE/c11e.md
+        - "Chap. X Algorithmique - diviser pour régner":
+            - "Cours 1: Paradigme diviser pour régner": NSITerm/ALGO/C10C1.md
+            - "TD 1: Un exemple d'application (difficile)": NSITerm/ALGO/C11TD1.md
+            - "TP 1: Préambule au tri fusion": NSITerm/ALGO/C10TP1.md
+            - "TP 2: Tourner R2D2": NSITerm/ALGO/C10TP2.md  
+        - "Chap. XI Arbres binaires":
+            - "Cours 1": NSITerm/SD/C11C1.md
+            - "Cours 2": NSITerm/SD/C11C2.md
+            - "Exercices 1": NSITerm/SD/C11E1.md
+        - "EP":
+            - "EP 26 janvier": NSITerm/EP/EP260123.md
+    - "Projets":
+        - "Terminale":
+            - "Projet 1: Autour de la POO - Jeu de cartes": Projets/jeu_carte.md
+        - "Première":
+            - "Projet 1: en période 2": Projets/web.md
+    - "Physique":
+        - "Micro contrôleur": PC/ucontroleur.md
+        - "Connexions": PC/connexion.md
+        - "Mode de fonctionnement": PC/mode_fonctionnement.md
+        - "Hello World": PC/HelloWorld.md
+        - "Mise en oeuvre": PC/capteurs.md
+        - "Conclusion": PC/conclusion.md
+        - "Annexe: graphiques avec matplotlib": PC/matplotlib.md
+    - "Liens divers":
+        - "Videos": perso/videos.md
+        - "Textes": perso/textes.md
+
+markdown_extensions:
+    - meta
+    - abbr
+
+    - def_list                      # Les listes de définition.
+    - attr_list                     # Un peu de CSS et des attributs HTML.
+    - md_in_html
+    - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.
+    - admonition                    # Blocs colorés  !!! info "ma remarque"
+    - pymdownx.details              #   qui peuvent se plier/déplier.
+    - pymdownx.caret                # Passage ^^souligné^^ ou en ^exposant^.
+    - pymdownx.mark                 # Passage ==surligné==.
+    - pymdownx.tilde                # Passage ~~barré~~ ou en ~indice~.
+    - pymdownx.highlight:           # Coloration syntaxique du code
+        linenums: true
+    - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
+    - pymdownx.snippets             # Inclusion de fichiers externe.
+    - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    false   #   avec cases d'origine
+        clickable_checkbox: true    #   et cliquables.
+    - pymdownx.tabbed               # Volets glissants.  === "Mon volet"
+    - pymdownx.superfences          # Imbrication de blocs.
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+
+    - pymdownx.keys:                # Touches du clavier.  ++ctrl+d++
+        separator: "\uff0b"
+    - pymdownx.emoji:               # Émojis  :boom:
+        emoji_index:     !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+    - pymdownx.arithmatex:
+        generic: true
+    - toc:
+        permalink: ⚓︎
+        toc_depth: 2
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@8.9.2/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+extra_css:
+    - stylesheets/extra.css
+
+plugins:
+  - search
+  - macros
+#  - pdf-with-js
