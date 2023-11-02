@@ -17,4 +17,12 @@ La classe `Cartes` ne présente pas de difficultés particulières avec ses deux
 La classe `JeuCartes` doit permettre de constituer les 52 cartes d'un jeu. Son attribut `cartes` étant une instance de `Cartes`. 
 
 Pour pouvoir jouer, deux joueurs ont besoin d'un paquet de cartes issus d'un jeu de cartes. D'où la présence d'une classe `Paquet`.
-# Cahier des charges
+# Roadmap 
+[![](https://mermaid.ink/img/pako:eNqVkTtOA0EMQK9iTR0J8Wu2BgqkSFFCuY13xpsYzWfl8RQoymWoyDn2YswGEpQgClyNPE9-_myNTY5MY5QDeY7URqihrJ5gIemVFJ6pgCOwKEr5639FASsM19DAU5KAyilWKMNaUhmO2DEamCc37j3nb7DAIKnz40egS3I57odq4lNFHd_t5lJ8M4kxsGeUY9VchiGJTr067vuSp-QV2OQ9dkkO0KXt0QprETqYrMecf_f-QllzLeSoK-vzNm7_KFHpOWcCilUfQolsf1aUurrV_1juziwFBA-DnkP3FVrIuM8U9TSqmZlA9Tzs6om3U6Y1uqG6ddPUp6Mei9fWtHFXUSyaVm_Rmkal0MyUwaHSA-NaMJimR59p9wkY9bgI?type=png)](https://mermaid.live/edit#pako:eNqVkTtOA0EMQK9iTR0J8Wu2BgqkSFFCuY13xpsYzWfl8RQoymWoyDn2YswGEpQgClyNPE9-_myNTY5MY5QDeY7URqihrJ5gIemVFJ6pgCOwKEr5639FASsM19DAU5KAyilWKMNaUhmO2DEamCc37j3nb7DAIKnz40egS3I57odq4lNFHd_t5lJ8M4kxsGeUY9VchiGJTr067vuSp-QV2OQ9dkkO0KXt0QprETqYrMecf_f-QllzLeSoK-vzNm7_KFHpOWcCilUfQolsf1aUurrV_1juziwFBA-DnkP3FVrIuM8U9TSqmZlA9Tzs6om3U6Y1uqG6ddPUp6Mei9fWtHFXUSyaVm_Rmkal0MyUwaHSA-NaMJimR59p9wkY9bgI)
+
+# Modalités d'évaluation
+* Présentation du travail
+* Qualité du travail collaboratif et recherche
+
+# Pistes pour les plus rapides
+Envisager une partie `Joueur humain` vs `Programme`.
